@@ -1,0 +1,40 @@
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--block-padding-horizontal);
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+}
+
+.activities__title {
+  margin: 5px 0;
+  color: var(--color-stand-out);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.activities__span {
+  font-size: 4.75rem;
+  font-weight: 800;
+}
+
+.activities__span::first-letter {
+  text-transform: capitalize;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+
+.view-all__button {
+  height: 85px;
+  width: 205px;
+}
+
+.view-all__button:hover {
+  color: var(--color-stand-out);
+}
