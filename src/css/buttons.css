@@ -1,0 +1,23 @@
+button {
+  border-radius: 0 35px 35px;
+  font-size: 1.45rem;
+  font-family: inherit;
+  font-weight: 800;
+  text-transform: var(--uppercase-text);
+  letter-spacing: 1;
+  cursor: pointer;
+}
+
+[class*="solid"],
+[class*="border"]:hover {
+  border: none;
+  background-color: var(--color-stand-out);
+  color: #fff;
+}
+
+[class*="border"],
+[class*="solid"]:hover {
+  border: solid;
+  border-color: var(--color-stand-out);
+  background-color: #fff;
+}
